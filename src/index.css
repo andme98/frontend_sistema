@@ -1,4 +1,9 @@
 body {
+  background-color: rgba(43, 32, 32, 0.144);
+  background-image: url('https://www.fracttal.com/hubfs/que%20es%20mantenimiento%20predictivo.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +15,58 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.cardheader {
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cardbody {
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cardfooter {
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.input {
+  display: inline-flex;
+}
+
+.centered {
+  margin-left: 45%;
+  margin-top: 10%;
+}
+
+.margin-centered {
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 6%;
+}
+
+.spaced {
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.button-right {
+  margin-top: 2px;
+  margin-bottom: 4px;
+  text-align: right;
+}
+
+.right-alignment {
+  text-align: right;
 }
