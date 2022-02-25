@@ -93,3 +93,8 @@ code {
   width: 100% !important;
   
 }
+
+.stepper-centered {
+  padding-left: 2%;
+  padding-right: 2%
+}

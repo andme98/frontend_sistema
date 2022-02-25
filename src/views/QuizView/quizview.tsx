@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 const Quizview = () => {
   return (
     <div>
-      <Card sx={{ opacity: 0.95 }}>
+      <Card sx={{ opacity: 0.95, marginLeft: 4, marginTop: 4, marginRight: 4}}>
         {/* <CardMedia
           sx={{ backgroundColor: 'black' }}
           component="img"
