@@ -12,6 +12,9 @@ import {
 import Listview from './views/ListView/listview';
 import Createview from './views/CreateView/createview';
 import Dashboard from './components/dashboard/dashboard';
+import Appbar from './components/appbar/appbar';
+import Landingpageview from './views/LandingPageView/landingpageview';
+import Quizview from './views/QuizView/quizview';
 
 
 function App() {
@@ -57,7 +60,11 @@ function App() {
   }
 
   return (
-    <Router>
+    <div>
+      <div>
+        <Appbar />
+      </div>
+      <Router>
       <div>
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
@@ -68,13 +75,17 @@ function App() {
           </Route>
           <Route path="/login" element={<Loginform />}>
           </Route>
-          <Route path="/" element={<Loginform />}>
+          <Route path="/" element={<Landingpageview />}>
           </Route>
           <Route path="/plataforma" element={<Dashboard />}>
+          </Route>
+          <Route path="/encuesta" element={<Quizview />}>
           </Route>
         </Routes>
       </div>
     </Router>
+    </div>
+
 
 
 
